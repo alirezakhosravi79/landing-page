@@ -1,4 +1,5 @@
 import Logo from "../../assets/Logo.png"
+import Button from "../ui/Button"
 
 function Navbar() {
   return (
@@ -26,8 +27,10 @@ function Navbar() {
           </li>
         </ul>
         <div className="flex items-center gap-4">
-          <a href="#" className="text-primary block bg-transparent rounded-md px-4 py-2">Login</a>
-          <a href="#" className="text-white block bg-primary rounded-md px-4 py-2">Sign up</a>
+        {/* <a href="#" className="flex items-center gap-3 px-4 py-2 bg-transparent text-primary rounded-md text-center">Login</a> */}
+
+          <Button variant="outline">Login</Button>
+          <Button>Sign up</Button>
         </div>
       </section>
     </nav>
