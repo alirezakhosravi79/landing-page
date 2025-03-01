@@ -3,6 +3,7 @@ import Aboute2 from './components/layout/Aboute2'
 import Hero from './components/layout/Hero'
 import Navbar from './components/layout/Navbar'
 import OurClient from './components/layout/OurClient'
+import Reach from './components/layout/Reach'
 import Services from './components/layout/Services'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
      <OurClient />
      <Services />
      <Aboute1 />
+     <Reach />
      <Aboute2 />
     </>
   )
