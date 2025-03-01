@@ -1,5 +1,6 @@
 import Aboute1 from './components/layout/Aboute1'
 import Aboute2 from './components/layout/Aboute2'
+import Blog from './components/layout/Blog'
 import Comment from './components/layout/Comment'
 import Hero from './components/layout/Hero'
 import Navbar from './components/layout/Navbar'
@@ -19,6 +20,7 @@ function App() {
      <Reach />
      <Aboute2 />
      <Comment />
+     <Blog />
     </>
   )
 }
