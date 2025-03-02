@@ -4,8 +4,8 @@ import Button from '../ui/Button'
 function Hero() {
   return (
     <header className=" bg-silver py-10 px-8">
-      <section className='container mx-auto flex items-center justify-between gap-4'>
-        <div className='w-full basis-[65%] flex flex-col items-start gap-4'>
+      <section className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-6">
+        <div className="w-full basis-[65%] flex flex-col items-start gap-4">
           <h1 className='text-heading1 font-bold leading-heading1'>
             Lesson and insights <br /><span className='text-primary'>from 8 years</span>
           </h1>

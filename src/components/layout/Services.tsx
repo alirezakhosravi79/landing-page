@@ -28,7 +28,7 @@ const services = [
 
 function Services() {
   return (
-    <section className="container mx-auto py-10 grid grid-cols-3 gap-12">
+    <section className="container mx-auto py-20 grid grid-cols-1 lg:grid-cols-3 gap-12">
       {services.map((item) => (
         <div
           key={item.id}

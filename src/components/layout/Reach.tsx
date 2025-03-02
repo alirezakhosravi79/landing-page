@@ -33,8 +33,8 @@ const reaches = [
 function Reach() {
   return (
     <section className="bg-silver py-10">
-      <div className="container mx-auto grid grid-cols-2 gap-10">
-        <div className="flex flex-col justify-center">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <div className="flex flex-col justify-center text-center lg:text-left">
           <h2 className="text-heading2 leading-heading2 font-semibold">
             Helping a local <br />{" "}
             <span className="text-primary">business reinvent itself</span>
@@ -45,7 +45,7 @@ function Reach() {
         </div>
         <div className="grid grid-cols-2 gap-6">
           {reaches.map((item) => (
-            <div key={item.id} className="flex items-center gap-3">
+            <div key={item.id} className="flex items-center justify-center lg:justify-start gap-3">
               <img src={item.icon} alt={item.title} className="w-[48px]" />
               <div className="flex flex-col gap-1">
                 <h4 className="text-heading4 leading-heading4 font-semibold">

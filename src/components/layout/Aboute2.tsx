@@ -3,7 +3,7 @@ import Image from "../../assets/pana.png";
 
 function Aboute2() {
   return (
-    <section className="container mx-auto py-10 flex items-center gap-10">
+    <section className="container mx-auto py-10 flex flex-col lg:flex-row items-center gap-10">
       <div className="w-full basis-[40%] flex items-center justify-center">
         <img src={Image} alt="image" className="w-full" />
       </div>
